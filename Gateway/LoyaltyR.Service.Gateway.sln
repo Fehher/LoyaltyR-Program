@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02F9F991-0A5C-4C88-A225-0B9974AC46F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{207CBC65-0B69-4474-9653-26817CF22414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Gateway.API", "src\LoyaltyR.Service.Gateway.API\LoyaltyR.Service.Gateway.API.csproj", "{E9F35E19-0C67-4501-87E9-A382A5242DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Gateway.Tests.Unit", "tests\LoyaltyR.Service.Gateway.Tests.Unit\LoyaltyR.Service.Gateway.Tests.Unit.csproj", "{5931D9EE-B479-4846-AABE-CB56287A43D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9F35E19-0C67-4501-87E9-A382A5242DEE} = {02F9F991-0A5C-4C88-A225-0B9974AC46F8}
+		{5931D9EE-B479-4846-AABE-CB56287A43D1} = {207CBC65-0B69-4474-9653-26817CF22414}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9F35E19-0C67-4501-87E9-A382A5242DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F35E19-0C67-4501-87E9-A382A5242DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F35E19-0C67-4501-87E9-A382A5242DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F35E19-0C67-4501-87E9-A382A5242DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5931D9EE-B479-4846-AABE-CB56287A43D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5931D9EE-B479-4846-AABE-CB56287A43D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5931D9EE-B479-4846-AABE-CB56287A43D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5931D9EE-B479-4846-AABE-CB56287A43D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
