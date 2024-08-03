@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0FC535FA-B07C-496F-9CDF-245CCA74734B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A20B586-32FB-496D-83DA-913E5AD02E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Cart.Domain", "LoyaltyR.Service.Cart.Domain\LoyaltyR.Service.Cart.Domain.csproj", "{F9D5F21B-8923-4B1B-8690-108F782F8BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Cart.Application", "LoyaltyR.Service.Cart.Application\LoyaltyR.Service.Cart.Application.csproj", "{50F7F51A-20DC-42A7-AFBF-F08A22BCA25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Cart.Infrastructure", "LoyaltyR.Service.Cart.Infrastructure\LoyaltyR.Service.Cart.Infrastructure.csproj", "{E09BC2DB-2B3D-4AF4-8706-1B62A75D4899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Cart.API", "LoyaltyR.Service.Cart.API\LoyaltyR.Service.Cart.API.csproj", "{CF78B588-50DE-440F-AF9E-32977ECD1CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Cart.Tests.Unit", "..\tests\LoyaltyR.Service.Cart.Tests.Unit\LoyaltyR.Service.Cart.Tests.Unit.csproj", "{DBCA71D0-8FC9-4E54-BA43-32D068112FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9D5F21B-8923-4B1B-8690-108F782F8BE2} = {0FC535FA-B07C-496F-9CDF-245CCA74734B}
+		{50F7F51A-20DC-42A7-AFBF-F08A22BCA25A} = {0FC535FA-B07C-496F-9CDF-245CCA74734B}
+		{E09BC2DB-2B3D-4AF4-8706-1B62A75D4899} = {0FC535FA-B07C-496F-9CDF-245CCA74734B}
+		{CF78B588-50DE-440F-AF9E-32977ECD1CBA} = {0FC535FA-B07C-496F-9CDF-245CCA74734B}
+		{DBCA71D0-8FC9-4E54-BA43-32D068112FCE} = {2A20B586-32FB-496D-83DA-913E5AD02E4A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9D5F21B-8923-4B1B-8690-108F782F8BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D5F21B-8923-4B1B-8690-108F782F8BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D5F21B-8923-4B1B-8690-108F782F8BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D5F21B-8923-4B1B-8690-108F782F8BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F7F51A-20DC-42A7-AFBF-F08A22BCA25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F7F51A-20DC-42A7-AFBF-F08A22BCA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F7F51A-20DC-42A7-AFBF-F08A22BCA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F7F51A-20DC-42A7-AFBF-F08A22BCA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09BC2DB-2B3D-4AF4-8706-1B62A75D4899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09BC2DB-2B3D-4AF4-8706-1B62A75D4899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09BC2DB-2B3D-4AF4-8706-1B62A75D4899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09BC2DB-2B3D-4AF4-8706-1B62A75D4899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF78B588-50DE-440F-AF9E-32977ECD1CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF78B588-50DE-440F-AF9E-32977ECD1CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF78B588-50DE-440F-AF9E-32977ECD1CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF78B588-50DE-440F-AF9E-32977ECD1CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCA71D0-8FC9-4E54-BA43-32D068112FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCA71D0-8FC9-4E54-BA43-32D068112FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCA71D0-8FC9-4E54-BA43-32D068112FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCA71D0-8FC9-4E54-BA43-32D068112FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
