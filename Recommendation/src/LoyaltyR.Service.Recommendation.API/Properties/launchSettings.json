@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "LoyaltyR.Service.Recommendation.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:50400",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
