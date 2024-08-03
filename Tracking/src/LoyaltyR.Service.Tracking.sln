@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4E41E77-1794-4B28-A7AF-EB5292FDE41E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{735EB19E-5237-49D6-89BB-D04F3A4C1820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Tracking.Domain", "LoyaltyR.Service.Tracking.Domain\LoyaltyR.Service.Tracking.Domain.csproj", "{D30F8F31-DABA-401D-8E30-4BC8138E7FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Tracking.Infrastructure", "LoyaltyR.Service.Tracking.Infrastructure\LoyaltyR.Service.Tracking.Infrastructure.csproj", "{0A9DD79C-5865-42FA-9731-237D176EFCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Tracking.Application", "LoyaltyR.Service.Tracking.Application\LoyaltyR.Service.Tracking.Application.csproj", "{B5C624D5-C578-4745-B31F-8F0644B56195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Tracking.Tests.Unit", "..\tests\LoyaltyR.Service.Tracking.Tests.Unit\LoyaltyR.Service.Tracking.Tests.Unit.csproj", "{1E9C8B3B-55A0-40F1-A269-9836D0932EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Tracking.API", "LoyaltyR.Service.Tracking.API\LoyaltyR.Service.Tracking.API.csproj", "{69D611DE-E1B9-4602-8B4B-36A80FF03BFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D30F8F31-DABA-401D-8E30-4BC8138E7FA4} = {C4E41E77-1794-4B28-A7AF-EB5292FDE41E}
+		{0A9DD79C-5865-42FA-9731-237D176EFCBF} = {C4E41E77-1794-4B28-A7AF-EB5292FDE41E}
+		{B5C624D5-C578-4745-B31F-8F0644B56195} = {C4E41E77-1794-4B28-A7AF-EB5292FDE41E}
+		{1E9C8B3B-55A0-40F1-A269-9836D0932EB5} = {735EB19E-5237-49D6-89BB-D04F3A4C1820}
+		{69D611DE-E1B9-4602-8B4B-36A80FF03BFE} = {C4E41E77-1794-4B28-A7AF-EB5292FDE41E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30F8F31-DABA-401D-8E30-4BC8138E7FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30F8F31-DABA-401D-8E30-4BC8138E7FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30F8F31-DABA-401D-8E30-4BC8138E7FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30F8F31-DABA-401D-8E30-4BC8138E7FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9DD79C-5865-42FA-9731-237D176EFCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9DD79C-5865-42FA-9731-237D176EFCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9DD79C-5865-42FA-9731-237D176EFCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9DD79C-5865-42FA-9731-237D176EFCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C624D5-C578-4745-B31F-8F0644B56195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C624D5-C578-4745-B31F-8F0644B56195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C624D5-C578-4745-B31F-8F0644B56195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C624D5-C578-4745-B31F-8F0644B56195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9C8B3B-55A0-40F1-A269-9836D0932EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9C8B3B-55A0-40F1-A269-9836D0932EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9C8B3B-55A0-40F1-A269-9836D0932EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9C8B3B-55A0-40F1-A269-9836D0932EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D611DE-E1B9-4602-8B4B-36A80FF03BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D611DE-E1B9-4602-8B4B-36A80FF03BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D611DE-E1B9-4602-8B4B-36A80FF03BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D611DE-E1B9-4602-8B4B-36A80FF03BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
