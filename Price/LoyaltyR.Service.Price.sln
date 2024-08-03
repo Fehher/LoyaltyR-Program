@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{125E0173-B52C-4525-9A5D-16EC80DCC1D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{61EBD3A0-FAC9-45A5-9FE7-FA87480DBEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Price.Domain", "src\LoyaltyR.Service.Price.Domain\LoyaltyR.Service.Price.Domain.csproj", "{B54BB359-63E6-4323-B995-61E8EC6D4D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Price.Application", "src\LoyaltyR.Service.Price.Application\LoyaltyR.Service.Price.Application.csproj", "{6FE24B31-097A-4D53-A8FE-84E11261D9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Price.Infrastructure", "src\LoyaltyR.Service.Price.Infrastructure\LoyaltyR.Service.Price.Infrastructure.csproj", "{7EB2EF14-CD6B-42C6-9D16-EB434B0575A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Price.API", "src\LoyaltyR.Service.Price.API\LoyaltyR.Service.Price.API.csproj", "{4E39CE5A-3192-448A-89E0-BA7E115E344F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyR.Service.Price.Tests.Unit", "tests\LoyaltyR.Service.Price.Tests.Unit\LoyaltyR.Service.Price.Tests.Unit.csproj", "{84482C59-74FD-40D1-A92B-2BC80DF9F397}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B54BB359-63E6-4323-B995-61E8EC6D4D7A} = {125E0173-B52C-4525-9A5D-16EC80DCC1D5}
+		{6FE24B31-097A-4D53-A8FE-84E11261D9C6} = {125E0173-B52C-4525-9A5D-16EC80DCC1D5}
+		{7EB2EF14-CD6B-42C6-9D16-EB434B0575A0} = {125E0173-B52C-4525-9A5D-16EC80DCC1D5}
+		{4E39CE5A-3192-448A-89E0-BA7E115E344F} = {125E0173-B52C-4525-9A5D-16EC80DCC1D5}
+		{84482C59-74FD-40D1-A92B-2BC80DF9F397} = {61EBD3A0-FAC9-45A5-9FE7-FA87480DBEE5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B54BB359-63E6-4323-B995-61E8EC6D4D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54BB359-63E6-4323-B995-61E8EC6D4D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54BB359-63E6-4323-B995-61E8EC6D4D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54BB359-63E6-4323-B995-61E8EC6D4D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE24B31-097A-4D53-A8FE-84E11261D9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE24B31-097A-4D53-A8FE-84E11261D9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE24B31-097A-4D53-A8FE-84E11261D9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE24B31-097A-4D53-A8FE-84E11261D9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB2EF14-CD6B-42C6-9D16-EB434B0575A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB2EF14-CD6B-42C6-9D16-EB434B0575A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB2EF14-CD6B-42C6-9D16-EB434B0575A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB2EF14-CD6B-42C6-9D16-EB434B0575A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E39CE5A-3192-448A-89E0-BA7E115E344F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E39CE5A-3192-448A-89E0-BA7E115E344F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E39CE5A-3192-448A-89E0-BA7E115E344F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E39CE5A-3192-448A-89E0-BA7E115E344F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84482C59-74FD-40D1-A92B-2BC80DF9F397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84482C59-74FD-40D1-A92B-2BC80DF9F397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84482C59-74FD-40D1-A92B-2BC80DF9F397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84482C59-74FD-40D1-A92B-2BC80DF9F397}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
