@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.2"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0"/>
+        <PackageReference Include="xunit" Version="2.9.2"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Cart\LoyaltyR.Service.Cart.API\LoyaltyR.Service.Cart.API.csproj" />
+      <ProjectReference Include="..\..\src\Catalog\LoyaltyR.Service.Catalog.API\LoyaltyR.Service.Catalog.API.csproj" />
+      <ProjectReference Include="..\..\src\Gateway\LoyaltyR.Service.Gateway.API\LoyaltyR.Service.Gateway.API.csproj" />
+      <ProjectReference Include="..\..\src\Price\LoyaltyR.Service.Price.API\LoyaltyR.Service.Price.API.csproj" />
+      <ProjectReference Include="..\..\src\Recommendation\LoyaltyR.Service.Recommendation.API\LoyaltyR.Service.Recommendation.API.csproj" />
+      <ProjectReference Include="..\..\src\Tracking\LoyaltyR.Service.Tracking.API\LoyaltyR.Service.Tracking.API.csproj" />
+    </ItemGroup>
+
+</Project>
