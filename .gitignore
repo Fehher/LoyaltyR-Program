@@ -427,3 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Macbook OS
+.DS_Store
+
+#Jetbrains/rider
+
+.idea/

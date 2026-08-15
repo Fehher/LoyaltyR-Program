@@ -1,0 +1,116 @@
+
+services:
+
+  gateway:
+    # image_build
+    image: loyalty/gateway-service:latest
+    build:
+      context: ../src/Gateway
+      dockerfile: Dockerfile
+
+    #container identity
+    container_name: loyalty-gateway-service
+
+    # networking
+    ports:
+      - "50001:80"
+    expose:
+      - 8080
+    networks:
+      - loyaltyr-backend
+
+  cart:
+    # image_build
+    image: loyalty/cart-service:latest
+    build: 
+      context: ../src/Cart
+      dockerfile: Dockerfile
+    
+    # container identity
+    container_name: loyalty-cart-service
+
+    # networking
+    ports:
+      - "50002:80"
+    expose:
+      - 8080
+    networks:
+      - loyaltyr-backend
+
+  catalog:
+    # image_build
+    image: loyalty/catalog-service
+    build:
+      context: ../src/Catalog
+      dockerfile: Dockerfile
+    
+    # container_identity
+    container_name: loyalty-catalog-service
+
+    # networking
+    ports:
+      - "50003:80"
+    expose:
+      - 8080
+    networks:
+      - loyaltyr-backend
+
+  price:
+    #image_build
+    image: loyalty/price-service
+    build:
+      context: ../src/Price
+      dockerfile: Dockerfile
+    
+    #container_identity
+    container_name: loyalty-price-service
+
+    #networking
+    ports:
+      - "50004:80"
+    expose:
+      - 8080
+    networks:
+      - loyaltyr-backend
+
+  recommendation:
+    #image_build
+    image: loyalty/recommendation-service
+    build:
+      context: ../src/Recommendation
+      dockerfile: Dockerfile
+    
+    #container_identity
+    container_name: loyalty-recommendation-service
+
+    #networking
+    ports:
+      - "50005:80"
+    expose:
+      - 8080
+    networks:
+      - loyaltyr-backend
+
+  tracking:
+    #image_build
+    image: loyalty/tracking-service
+    build:
+      context: ../src/Tracking
+      dockerfile: Dockerfile
+    
+    #container_identity
+    container_name: loyalty-tracking-service
+
+    #networking
+    ports:
+      - "50006:80"
+    expose:
+      - 8080
+    networks:
+      - loyaltyr-backend
+
+# networks
+networks:
+  loyaltyr-backend:
+
+
